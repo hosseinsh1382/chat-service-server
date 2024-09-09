@@ -21,8 +21,8 @@ public class MessageService : IMessageService
     public async Task<MessageResponse> AddMessageAsync(NewMessageRequest messageRequest)
     {
         var message = _mapper.Map<Message>(messageRequest);
-        /*await _dbContext.Messages.AddAsync(message);
-        await _dbContext.SaveChangesAsync();*/
+        await _dbContext.Messages.AddAsync(message);
+        await _dbContext.SaveChangesAsync();
         return _mapper.Map<MessageResponse>(message);
     }
 
