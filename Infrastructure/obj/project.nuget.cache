@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "S232QYuwVJgNE216dmPciYxDWHhrpIbwZp6ptKaCpOU1s0JQJ60COBLbzYK9bVQUp7PgBPeuZRvoHJVvw1bs3Q==",
+  "dgSpecHash": "o2yB24WaXvMcD45bOb43l3DmFBSeXHwHUiCwhkQtOMMDnsAjwTITSMREdm5n5p/2G/Urx45/FiaD8TElV6kWBw==",
   "success": true,
   "projectFilePath": "D:\\Job\\Chat service\\ChatServer\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.8\\microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.8\\microsoft.aspnetcore.connections.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.8\\microsoft.aspnetcore.signalr.common.8.0.8.nupkg.sha512",

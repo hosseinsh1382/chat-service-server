@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "i2QkXVkxsP6z4DABNHk0xp7mLsfNwUucFeYphcwgPkeXFEoxqs5UT6YWAY/GBs4RpzIrK5+ugS0ztELlP4xL4Q==",
+  "dgSpecHash": "Aa/RQrpgxjHvIn9SacM9/eZ0yHZ/doenyWOnOe8w5w9Pc1NGUSe1hnaUCsbqkw/4h1Dp9grp09T0SWd4M0BjRA==",
   "success": true,
   "projectFilePath": "D:\\Job\\Chat service\\ChatServer\\ChatServerTests\\ChatServerTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\fluentassertions\\7.0.0-alpha.4\\fluentassertions.7.0.0-alpha.4.nupkg.sha512",

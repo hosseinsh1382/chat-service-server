@@ -1,5 +1,4 @@
 using ChatServer;
-using Infrastructure.Business;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDependencies();
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
@@ -19,6 +19,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseRouting();
 app.MapHub<ChatHub>("/hub");
+app.MapControllers();
 app.Run();

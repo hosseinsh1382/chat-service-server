@@ -126,3 +126,4 @@ D:\Job\Chat service\ChatServer\ChatServerTests\obj\Debug\net8.0\refint\ChatServe
 D:\Job\Chat service\ChatServer\ChatServerTests\obj\Debug\net8.0\ChatServerTests.pdb
 D:\Job\Chat service\ChatServer\ChatServerTests\obj\Debug\net8.0\ChatServerTests.genruntimeconfig.cache
 D:\Job\Chat service\ChatServer\ChatServerTests\obj\Debug\net8.0\ref\ChatServerTests.dll
+D:\Job\Chat service\ChatServer\ChatServerTests\bin\Debug\net8.0\BCrypt.Net-Next.dll
