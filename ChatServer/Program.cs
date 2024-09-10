@@ -1,4 +1,7 @@
+using System.Text;
 using ChatServer;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDependencies();
 builder.Services.AddControllers();
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        AuthenticationType = "Bearer",
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["SecretKey"])),
+    });
 
 var app = builder.Build();
 
@@ -18,7 +32,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 app.MapHub<ChatHub>("/hub");
+app.UseAuthentication();
+app.UseAuthorization();
+app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
