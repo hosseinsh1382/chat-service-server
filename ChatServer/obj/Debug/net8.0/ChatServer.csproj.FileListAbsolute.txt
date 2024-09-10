@@ -45,3 +45,12 @@ D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Infrastructure.dll
 D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Application.pdb
 D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Infrastructure.pdb
 D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Job\Chat service\ChatServer\ChatServer\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -4,11 +4,12 @@ using Domain.Models;
 
 namespace Infrastructure.Business;
 
-public class MapperConfiguration : Profile
+public class AutoMapperConfiguration : Profile
 {
-    public MapperConfiguration()
+    public AutoMapperConfiguration()
     {
         CreateMap<NewMessageRequest, Message>();
         CreateMap<Message, MessageResponse>();
+        CreateMap<SignUpRequest, Account>();
     }
 }
